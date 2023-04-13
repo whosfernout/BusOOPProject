@@ -26,5 +26,8 @@
     <ClInclude Include="main.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
