@@ -2,20 +2,12 @@
 #include "bus.h"
 
 int main() {
-	Bus bus1;
 
-	bus1.brand = "MAZ";
-	bus1.number = "1234PM7";
-	bus1.price = 14000;
-	bus1.capasity = 10
-
-	Bus bus2;
-
-	bus1.brand = "PAZ";
-	bus1.number = "2345PM7";
-	bus1.price = 23500;
-	bus1.capasity = 15;
-
+	Bus bus1("MAZ", "1234PM7", 14000, 10);
+	Bus bus2("MAZ", "1234PM7", 14000, 10);
+	Bus bus3("MAZ", "1234PM7", 14000, 10);
+	Bus bus4("MAZ", "1234PM7", 14000, 10);
+	Bus bus5("MAZ", "1234PM7", 14000, 10);
 
 	return 0;
 }
